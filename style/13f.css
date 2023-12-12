@@ -1,0 +1,68 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.profile-about{
+  font-weight: 500;
+  margin-top: 4px;
+  line-height: 1.3em;
+}
+
+.code{
+  font-size: 14px;
+  margin: 0;
+  margin-left: 4px;
+  font-weight: 500;
+  color: gray;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-name{
+  padding-top: 3px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  font-weight: bold;
+}
+.profile-info{
+  display: flex;
+  height: 165px;
+  flex-direction: column;
+  width: 315px;
+}
+
+.image{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.profile-picture{
+  display: flex;
+  flex-direction: row;
+  width: 73px;
+  background-color: lightblue;
+}
+
+.channel{
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  height: 82px;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 14px;
+}
+
+.youtube-com{
+
+}
